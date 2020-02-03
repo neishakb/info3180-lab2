@@ -14,3 +14,13 @@ img{
     border: solid, white;
     border-radius: 100px;
 }
+
+h3{
+    text-align: center;
+}
+
+button{
+    margin-left: 50%;
+    margin-right: 50%;
+    border-radius: 5px;
+}
