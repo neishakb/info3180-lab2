@@ -2,6 +2,10 @@ body {
     padding-top: 5rem;
 }
 
+.my_pro{
+    border-style: single; 
+}
+
 .profile_picture{
     background-color: rgb(111, 204, 114);
     border-radius: 15px;
@@ -17,6 +21,21 @@ img{
 
 h3{
     text-align: center;
+    color: whitesmoke;
+}
+
+h6{
+    text-align: center;
+    color: whitesmoke;
+}
+
+h5{
+    text-align: center;
+    color: whitesmoke;
+}
+
+p{
+    text-align: left;
 }
 
 button{
