@@ -1,9 +1,18 @@
 body {
     padding-top: 5rem;
+    
+}
+.container{
+    /* display: flex;
+    justify-content: center; */
+    width: 70%;
+    /* border: solid 2px black; */
 }
 
 .my_pro{
     border-style: single; 
+    /* width: 50%; */
+    
 }
 
 .profile_picture{
@@ -17,6 +26,8 @@ img{
     margin-right: auto;
     border: solid, white;
     border-radius: 100px;
+    width: 200px; 
+    height: 200px;
 }
 
 h3{
@@ -36,6 +47,29 @@ h5{
 
 p{
     text-align: left;
+}
+
+.neisha{
+    display: flex;
+    justify-content: space-evenly ;
+    
+}
+.neisha div{
+    margin: 3px;
+    /* border: solid 1px black; */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/*ul{
+    text-align: center;
+    padding-top: 10px;
+    padding-right: 50px;
+} */
+
+tr{
+    text-align: center;
 }
 
 button{

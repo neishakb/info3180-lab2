@@ -7,7 +7,14 @@ This file creates your application.
 
 from app import app
 from flask import render_template, request, redirect, url_for, flash
+import datetime 
 
+
+
+
+def format_date_joined():
+    now = datetime.datetime.now() #today'date
+    return "Joined " + now.strftime("%B, %Y")
 
 ###
 # Routing for your application.
@@ -26,7 +33,7 @@ def about():
 
 @app.route('/profile')
 def profile():
-    return render_template('profile.html')
+    return render_template('profile.html', now=format_date_joined())
 
 
 ###

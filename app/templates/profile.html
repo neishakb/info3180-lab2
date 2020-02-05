@@ -1,29 +1,68 @@
 {% extends "base.html" %}
 
 {% block main%}
+<div class="container">
 <h1>Profile</h1>
 
 <div class ="my_pro">
     <div class="row1">
         <div class="profile_picture">
-            <img src="{{url_for('static', filename= './images/liz.jpg')}}" width="200" height="200" alt="Princess Elizabeth"/>
+            <img src="{{url_for('static', filename= './images/liz.jpg')}}" alt="Princess Elizabeth"/>
                 <h3> Mary Jane </h3>
                 <h6>@mjane</h6>
                 <h5>Kingston, Jamaica</h5>
-                <h5>Joined January, 2018</h5>
+                <h5>{{now}}</h5>
         </div>
 
-        <div class="biograph">
-            <p>I am a smart and talented young woman who loves 
-               web design and development. Contact me if
-               you'd like to work together on a new project.
-            </p>
+        <div class="row2">
+            <div class="biograph">
+                <p>I am a smart and talented young woman who loves 
+                 web design and development. Contact me if
+                 you'd like to work together on a new project.
+                 </p>
+             </div>
+        </div> 
+
+       <div class="neisha">  
+            <div>
+                <p>
+                    7
+                </p>
+                <p>
+                    Post
+                </p>                
+
+
+                
+            </div>
+
+            <div>
+
+                <p>
+                    7
+                </p>
+                <p>
+                    Post
+                </p>
+            </div>
+            <div>
+
+                <p>
+                    7
+                </p>
+                <p>
+                    Post
+                </p>
+            </div>
         </div>
+
+        
+        
     </div>
 
     <div class = "button">
         <button type="button" name="Follow">Follow</button>
     </div>
 </div>
-
+</div>
 {% endblock %}
