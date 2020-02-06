@@ -5,12 +5,11 @@ body {
 .container{
     /* display: flex;
     justify-content: center; */
-    width: 70%;
+    width: 65%;
     /* border: solid 2px black; */
 }
 
 .my_pro{
-    border-style: single; 
     /* width: 50%; */
     
 }
@@ -18,6 +17,7 @@ body {
 .profile_picture{
     background-color: rgb(111, 204, 114);
     border-radius: 15px;
+    
 }
 
 img{
@@ -49,12 +49,17 @@ p{
     text-align: left;
 }
 
-.neisha{
+.biograph{
+    padding-top: 2%;
+}
+
+.profile_data{
     display: flex;
     justify-content: space-evenly ;
+    padding-top: 8%;
     
 }
-.neisha div{
+.profile_data div{
     margin: 3px;
     /* border: solid 1px black; */
     display: flex;
@@ -72,7 +77,13 @@ tr{
     text-align: center;
 }
 
+.button{
+    padding-top: 20%;
+}
+
 button{
+    display: flex;
+    justify-content: center;
     margin-left: 50%;
     margin-right: 50%;
     border-radius: 5px;
