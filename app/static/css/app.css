@@ -8,15 +8,20 @@ body {
     width: 65%;
     /* border: solid 2px black; */
 }
-
-.my_pro{
-    /* width: 50%; */
-    
+.borderer{
+    border: solid 3px rgb(170, 180, 180);
+    border-radius: 8px;
 }
+
+.everything{
+    padding: 3%;
+}
+
 
 .profile_picture{
     background-color: rgb(111, 204, 114);
-    border-radius: 15px;
+    /* border-radius: 15px; */
+    padding-top: 5px;
     
 }
 
@@ -53,6 +58,15 @@ p{
     padding-top: 2%;
 }
 
+.biograph p{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(153, 153, 153);
+    width: 80%;
+    margin: auto;
+    
+    
+}
+
 .profile_data{
     display: flex;
     justify-content: space-evenly ;
@@ -67,6 +81,14 @@ p{
     align-items: center;
 }
 
+.profile_data p:nth-child(1){
+    font-weight: bold;
+}
+
+.profile_data p:nth-child(2){
+    color: rgb(153, 153, 153);
+}
+
 /*ul{
     text-align: center;
     padding-top: 10px;
@@ -78,13 +100,19 @@ tr{
 }
 
 .button{
-    padding-top: 20%;
+    padding-top: 10%;
+    display: flex; 
+    justify-content: center;
 }
 
 button{
-    display: flex;
-    justify-content: center;
-    margin-left: 50%;
-    margin-right: 50%;
-    border-radius: 5px;
+    
+    margin-left: 10px;
+    margin-right: 10px;
+    border-radius: 8px;
+    font-size: 24px;
+    padding: 14px, 40px;
+    background-color: rgb(66, 235, 72);
+    color: whitesmoke;
+    width: 30%;
 }

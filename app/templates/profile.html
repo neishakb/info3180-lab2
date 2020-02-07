@@ -1,10 +1,10 @@
 {% extends "base.html" %}
 
 {% block main%}
-<div class="container">
+<div class="container ">
 <!--<h1>Profile</h1>-->
 
-<div class ="my_pro">
+<div class ="my_pro borderer">
     <div class="row1">
         <div class="profile_picture">
             <img src="{{url_for('static', filename= './images/liz.jpg')}}" alt="Princess Elizabeth"/>
@@ -14,37 +14,42 @@
                 <h5>{{now}}</h5>
         </div>
 
-        <div class="row2">
-            <div class="biograph">
-                <p>I am a smart and talented young woman who loves 
-                 web design and development. Contact me if
-                 you'd like to work together on a new project.
-                 </p>
-             </div>
-        </div> 
+        <div class="everything">
 
-       <div class="profile_data">  
-            <div>
-                <p>7</p>
-                <p>Post</p>                   
-            </div>
+            <div class="row2">
+                <div class="biograph">
+                    <p>I am a smart and talented young woman who loves 
+                    web design and development. Contact me if
+                    you'd like to work together on a new project.
+                    </p>
+                </div>
+            </div> 
 
-            <div>
-                <p>100</p>
-                <p>Following</p>
-            </div>
+        <div class="profile_data">  
+                <div>
+                    <p>7</p>
+                    <p>Post</p>                   
+                </div>
 
-            <div>
-                <p>250</p>
-                <p>Followers</p>
-            </div>
-        </div>   
+                <div>
+                    <p>100</p>
+                    <p>Following</p>
+                </div>
+
+                <div>
+                    <p>250</p>
+                    <p>Followers</p>
+                </div>
+            </div>  
+
+            <div class = "button">
+                <button  type="button" name="Follow">Follow</button>
+            </div> 
+        </div>
         
     </div>
 
-    <div class = "button">
-        <button type="button" name="Follow">Follow</button>
-    </div>
+    
 </div>
 </div>
 
