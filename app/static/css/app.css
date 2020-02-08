@@ -21,7 +21,7 @@ body {
 .profile_picture{
     background-color: rgb(111, 204, 114);
     /* border-radius: 15px; */
-    padding-top: 5px;
+    padding-top: 35px;
     
 }
 
@@ -33,22 +33,28 @@ img{
     border-radius: 100px;
     width: 200px; 
     height: 200px;
+    box-shadow: 2px 2px 2px grey;
 }
 
 h3{
     text-align: center;
     color: whitesmoke;
+    text-shadow: 1.5px 1.5px 1.5px grey;
 }
 
 h6{
     text-align: center;
     color: whitesmoke;
+    text-shadow: 1.5px 1.5px 1.5px grey;
 }
 
 h5{
     text-align: center;
     color: whitesmoke;
+    text-shadow: 1.5px 1.5px 1.5px grey;
 }
+
+
 
 p{
     text-align: left;
@@ -112,7 +118,7 @@ button{
     border-radius: 8px;
     font-size: 24px;
     padding: 14px, 40px;
-    background-color: rgb(66, 235, 72);
+    background-color: #81D319;
     color: whitesmoke;
     width: 30%;
 }
